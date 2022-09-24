@@ -1,0 +1,11 @@
+C:\Users\Saman\source\repos\AraaStore\AraaStore\bin\Debug\AraaStore.exe.config
+C:\Users\Saman\source\repos\AraaStore\AraaStore\bin\Debug\AraaStore.exe
+C:\Users\Saman\source\repos\AraaStore\AraaStore\bin\Debug\AraaStore.pdb
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.csproj.AssemblyReference.cache
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.csproj.SuggestedBindingRedirects.cache
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.Form1.resources
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.Properties.Resources.resources
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.csproj.GenerateResource.cache
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.csproj.CoreCompileInputs.cache
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.exe
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.pdb
