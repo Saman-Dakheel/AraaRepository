@@ -54,5 +54,22 @@ namespace AraaStore
             System.Environment.Exit(0);
 
         }
+
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void goToNewSalesPage_Click(object sender, EventArgs e)
+        {
+            NewSales newSales = new NewSales();
+            newSales.Show();
+            
+        }
     }
 }

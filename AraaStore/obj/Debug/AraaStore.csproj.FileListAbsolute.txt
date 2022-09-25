@@ -9,3 +9,4 @@ C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.csproj.Gener
 C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.csproj.CoreCompileInputs.cache
 C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.exe
 C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.pdb
+C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.newsales.resources
