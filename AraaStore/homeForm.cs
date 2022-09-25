@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AraaStore
 {
-    public partial class Form1 : Form
+    public partial class homeForm : Form
     {
-        public Form1()
+        public homeForm()
         {
             InitializeComponent();
         }
@@ -52,6 +52,11 @@ namespace AraaStore
         private void exit_Click(object sender, EventArgs e)
         {
             System.Environment.Exit(0);
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
 
         }
     }
