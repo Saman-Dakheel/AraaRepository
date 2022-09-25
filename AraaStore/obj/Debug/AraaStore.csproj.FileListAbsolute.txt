@@ -9,4 +9,18 @@ C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.csproj.Gener
 C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.csproj.CoreCompileInputs.cache
 C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.exe
 C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.pdb
+<<<<<<< HEAD
 C:\Users\Saman\source\repos\AraaStore\AraaStore\obj\Debug\AraaStore.newsales.resources
+=======
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\bin\Debug\AraaStore.exe.config
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\bin\Debug\AraaStore.exe
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\bin\Debug\AraaStore.pdb
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\obj\Debug\AraaStore.csproj.AssemblyReference.cache
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\obj\Debug\AraaStore.homeForm.resources
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\obj\Debug\AraaStore.Form2.resources
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\obj\Debug\AraaStore.Properties.Resources.resources
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\obj\Debug\AraaStore.csproj.GenerateResource.cache
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\obj\Debug\AraaStore.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\obj\Debug\AraaStore.exe
+C:\Users\ahmed\Source\Repos\AraaRepository\AraaStore\obj\Debug\AraaStore.pdb
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b

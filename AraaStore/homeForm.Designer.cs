@@ -1,6 +1,6 @@
 ﻿namespace AraaStore
 {
-    partial class Form1
+    partial class homeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,11 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.Panel mainPanel;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.panel8 = new System.Windows.Forms.Panel();
             this.label25 = new System.Windows.Forms.Label();
+=======
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.exit = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
@@ -142,6 +145,19 @@
             this.exit.UseVisualStyleBackColor = false;
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
+            // exit
+            // 
+            this.exit.BackColor = System.Drawing.Color.Red;
+            this.exit.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.exit.ForeColor = System.Drawing.Color.White;
+            this.exit.Location = new System.Drawing.Point(0, 495);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(985, 54);
+            this.exit.TabIndex = 10;
+            this.exit.Text = "اغلاق و خروج";
+            this.exit.UseVisualStyleBackColor = false;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
             // panel6
             // 
             this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -163,7 +179,7 @@
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button7.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.Window;
-            this.button7.Location = new System.Drawing.Point(49, 134);
+            this.button7.Location = new System.Drawing.Point(49, 144);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(121, 33);
             this.button7.TabIndex = 3;
@@ -176,7 +192,7 @@
             this.label19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label19.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.Gray;
-            this.label19.Location = new System.Drawing.Point(30, 79);
+            this.label19.Location = new System.Drawing.Point(41, 81);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(144, 40);
             this.label19.TabIndex = 2;
@@ -190,7 +206,7 @@
             this.label20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label20.Font = new System.Drawing.Font("Microsoft Uighur", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(49, 45);
+            this.label20.Location = new System.Drawing.Point(58, 45);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(109, 34);
             this.label20.TabIndex = 2;
@@ -206,7 +222,7 @@
             this.label21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label21.Location = new System.Drawing.Point(11, 0);
+            this.label21.Location = new System.Drawing.Point(11, 8);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(202, 36);
             this.label21.TabIndex = 1;
@@ -236,7 +252,7 @@
             this.button5.BackColor = System.Drawing.Color.Crimson;
             this.button5.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(47, 134);
+            this.button5.Location = new System.Drawing.Point(40, 144);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(121, 33);
             this.button5.TabIndex = 3;
@@ -278,7 +294,7 @@
             this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Crimson;
-            this.label15.Location = new System.Drawing.Point(23, 0);
+            this.label15.Location = new System.Drawing.Point(23, 9);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(172, 36);
             this.label15.TabIndex = 1;
@@ -308,7 +324,11 @@
             this.button4.BackColor = System.Drawing.Color.DodgerBlue;
             this.button4.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.button4.Location = new System.Drawing.Point(47, 150);
+=======
+            this.button4.Location = new System.Drawing.Point(38, 139);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(121, 33);
             this.button4.TabIndex = 3;
@@ -321,7 +341,11 @@
             this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label10.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Gray;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.label10.Location = new System.Drawing.Point(21, 85);
+=======
+            this.label10.Location = new System.Drawing.Point(23, 75);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(180, 40);
             this.label10.TabIndex = 2;
@@ -336,7 +360,11 @@
             this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label11.Font = new System.Drawing.Font("Microsoft Uighur", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.label11.Location = new System.Drawing.Point(47, 42);
+=======
+            this.label11.Location = new System.Drawing.Point(47, 41);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(120, 34);
             this.label11.TabIndex = 2;
@@ -351,7 +379,11 @@
             this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.DodgerBlue;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.label12.Location = new System.Drawing.Point(21, 9);
+=======
+            this.label12.Location = new System.Drawing.Point(21, 2);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(165, 36);
             this.label12.TabIndex = 1;
@@ -380,7 +412,7 @@
             this.button6.BackColor = System.Drawing.Color.ForestGreen;
             this.button6.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(46, 134);
+            this.button6.Location = new System.Drawing.Point(46, 144);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(121, 33);
             this.button6.TabIndex = 3;
@@ -408,7 +440,7 @@
             this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label17.Font = new System.Drawing.Font("Microsoft Uighur", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(74, 45);
+            this.label17.Location = new System.Drawing.Point(76, 45);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(66, 34);
             this.label17.TabIndex = 2;
@@ -423,7 +455,7 @@
             this.label18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label18.Location = new System.Drawing.Point(34, 0);
+            this.label18.Location = new System.Drawing.Point(34, 7);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(139, 36);
             this.label18.TabIndex = 1;
@@ -452,12 +484,17 @@
             this.button3.BackColor = System.Drawing.Color.Goldenrod;
             this.button3.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.button3.Location = new System.Drawing.Point(42, 150);
+=======
+            this.button3.Location = new System.Drawing.Point(46, 139);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(121, 33);
             this.button3.TabIndex = 3;
             this.button3.Text = "فتح";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label7
             // 
@@ -465,7 +502,11 @@
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label7.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Gray;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.label7.Location = new System.Drawing.Point(22, 85);
+=======
+            this.label7.Location = new System.Drawing.Point(26, 74);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(167, 60);
             this.label7.TabIndex = 2;
@@ -480,7 +521,11 @@
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label8.Font = new System.Drawing.Font("Microsoft Uighur", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.label8.Location = new System.Drawing.Point(55, 41);
+=======
+            this.label8.Location = new System.Drawing.Point(56, 40);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(98, 34);
             this.label8.TabIndex = 2;
@@ -495,7 +540,11 @@
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Goldenrod;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.label9.Location = new System.Drawing.Point(46, 7);
+=======
+            this.label9.Location = new System.Drawing.Point(46, 2);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 36);
             this.label9.TabIndex = 1;
@@ -526,7 +575,7 @@
             this.label22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Fuchsia;
-            this.label22.Location = new System.Drawing.Point(4, 0);
+            this.label22.Location = new System.Drawing.Point(4, 3);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(201, 36);
             this.label22.TabIndex = 1;
@@ -536,6 +585,7 @@
             // 
             // goToNewSalesPage
             // 
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.goToNewSalesPage.BackColor = System.Drawing.Color.Fuchsia;
             this.goToNewSalesPage.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goToNewSalesPage.ForeColor = System.Drawing.Color.White;
@@ -546,6 +596,17 @@
             this.goToNewSalesPage.Text = "فتح";
             this.goToNewSalesPage.UseVisualStyleBackColor = false;
             this.goToNewSalesPage.Click += new System.EventHandler(this.goToNewSalesPage_Click);
+=======
+            this.button8.BackColor = System.Drawing.Color.Fuchsia;
+            this.button8.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(54, 144);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(121, 33);
+            this.button8.TabIndex = 3;
+            this.button8.Text = "فتح";
+            this.button8.UseVisualStyleBackColor = false;
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             // 
             // label23
             // 
@@ -553,7 +614,7 @@
             this.label23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label23.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.Gray;
-            this.label23.Location = new System.Drawing.Point(35, 79);
+            this.label23.Location = new System.Drawing.Point(35, 81);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(155, 40);
             this.label23.TabIndex = 2;
@@ -596,7 +657,11 @@
             this.button2.BackColor = System.Drawing.Color.Turquoise;
             this.button2.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.button2.Location = new System.Drawing.Point(49, 150);
+=======
+            this.button2.Location = new System.Drawing.Point(49, 139);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 33);
             this.button2.TabIndex = 3;
@@ -609,7 +674,7 @@
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(23, 85);
+            this.label4.Location = new System.Drawing.Point(22, 76);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(177, 40);
             this.label4.TabIndex = 2;
@@ -625,7 +690,11 @@
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Turquoise;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.label6.Location = new System.Drawing.Point(49, 6);
+=======
+            this.label6.Location = new System.Drawing.Point(58, 4);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(118, 36);
             this.label6.TabIndex = 1;
@@ -639,7 +708,7 @@
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(54, 42);
+            this.label5.Location = new System.Drawing.Point(57, 41);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(119, 34);
             this.label5.TabIndex = 2;
@@ -670,7 +739,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Purple;
-            this.label1.Location = new System.Drawing.Point(41, -1);
+            this.label1.Location = new System.Drawing.Point(41, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(140, 36);
             this.label1.TabIndex = 1;
@@ -683,7 +752,11 @@
             this.button1.BackColor = System.Drawing.Color.Purple;
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             this.button1.Location = new System.Drawing.Point(54, 150);
+=======
+            this.button1.Location = new System.Drawing.Point(54, 140);
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 33);
             this.button1.TabIndex = 3;
@@ -697,7 +770,7 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(35, 85);
+            this.label3.Location = new System.Drawing.Point(28, 78);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(162, 40);
             this.label3.TabIndex = 2;
@@ -720,7 +793,11 @@
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.UseWaitCursor = true;
             // 
+<<<<<<< HEAD:AraaStore/Form1.Designer.cs
             // Form1
+=======
+            // homeForm
+>>>>>>> 8171ba0be42bae52f6b78aa9bf9171926a130a2b:AraaStore/homeForm.Designer.cs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -728,7 +805,7 @@
             this.ControlBox = false;
             this.Controls.Add(mainPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "homeForm";
             this.Text = "Araa Repository";
             mainPanel.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
